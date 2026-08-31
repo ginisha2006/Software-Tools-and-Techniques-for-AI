@@ -1,0 +1,24 @@
+
+You are a movie review generator.
+
+Generate a JSON array of 20 synthetic movie reviews.
+Each element must be an object with keys: "review", "sentiment", "movie".
+
+- "review": 1-3 sentences of a realistic movie review.
+- "sentiment": one of "Positive", "Negative", or "Neutral".
+- "movie": a plausible movie title (can be invented).
+
+Target distribution per batch (approx):
+- 10 Positive
+- 7 Negative
+- 3 Neutral
+
+Here are some examples of the JSON format:
+[
+{"review": "I struggled to sit through the first half. A complete misfire.", "sentiment": "Negative", "movie": "ExampleMovie"},
+{"review": "Ideally, this should have been great, but something was off. It’s definitely not for everyone.", "sentiment": "Neutral", "movie": "ExampleMovie"},
+{"review": "Great concept, but the execution was clichéd. I'm honestly still trying to process what I just saw.", "sentiment": "Neutral", "movie": "ExampleMovie"},
+{"review": "I tried to like it, I really did, but it failed. The cinematography distracted me from everything else. A complete misfire.", "sentiment": "Negative", "movie": "ExampleMovie"}
+]
+
+Return ONLY valid JSON, no extra text.

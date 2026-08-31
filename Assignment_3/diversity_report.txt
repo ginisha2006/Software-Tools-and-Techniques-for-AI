@@ -1,0 +1,7 @@
+Self-BLEU per class:
+Positive: 0.025360492132939817
+Status: OK (target < 0.7)
+Negative: 0.03519267741131315
+Status: OK (target < 0.7)
+Neutral: 0.022657916486387965
+Status: OK (target < 0.7)
